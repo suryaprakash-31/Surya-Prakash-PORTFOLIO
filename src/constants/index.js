@@ -1,7 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project2 from "../assets/projects/project-4.jpg";
+
 
 export const HERO_CONTENT = `Seeking an entry-level position as a MERN Stack Developer where I can apply my knowledge of MongoDB, Express.js, React, and Node.js to develop scalable web applications and gain hands-on experience in real-world projects.`;
 
@@ -37,11 +36,11 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React.js", "tailwind","Framer Motion"],
   },
   {
-    title: "E-Commerce Website (on process) ",
+    title: "Spotify Clone (Backend on process) ",
     image: project2,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React.js","Express.js","Node.js","MongoDB"],
+      "A fully functional Spotify Clone website with features like play,pause,album,favorite playlist,uploading album and user authentication.",
+    technologies: ["HTML", "CSS", "React.js","TailwindCss","Express.js","Node.js","MongoDB"],
   },
  
 ];
